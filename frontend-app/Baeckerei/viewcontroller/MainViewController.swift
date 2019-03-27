@@ -8,21 +8,59 @@
 
 import UIKit
 
-class MainViewController: UITabBarController {
-    private let bakeryDatasource = BakeryDatasource()
+class MainViewController: UIViewController, UICollectionViewDelegate {
+    private lazy var dataSource: ImageLabelDataSource = {
+        let dataSource = ImageLabelDataSource()
+        
+        let image = UIImage(named: "buns")!
+        
+        let tileColor = UIColor(displayP3Red: 190/255, green: 235/255, blue: 235/255, alpha: 1)
+        
+        dataSource.data = [
+            ImageLabelData(label: "Brötchen", image: image, color: tileColor),
+            ImageLabelData(label: "Brote", image: image, color: tileColor),
+            ImageLabelData(label: "Süße Stückchen", image: image, color: tileColor),
+            ImageLabelData(label: "Snacks", image: image, color: tileColor),
+            ImageLabelData(label: "Dauergebäcke", image: image, color: tileColor),
+            ImageLabelData(label: "Wochenendgebäcke", image: image, color: tileColor),
+            ImageLabelData(label: "Kuchen", image: image, color: tileColor),
+            ImageLabelData(label: "Torten", image: image, color: tileColor),
+            ImageLabelData(label: "Desserts", image: image, color: tileColor),
+            ImageLabelData(label: "Saisonales", image: image, color: tileColor),
+        ]
+        
+        dataSource.collectionItemSelectionHandler = handleCollectionViewCellSelection
+        
+        return dataSource
+    }()
     
-    private var loafMasterViewController = LoafMasterViewController()
-    private var bunMasterViewController = BunMasterViewController()
-    private var newsMasterViewController = NewsMasterViewController()
-
+    private let collectionViewFlowLayout = CollectionViewFlowLayout(display: .grid)
+    
+    private lazy var collectionView: UICollectionView = {
+        let collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: collectionViewFlowLayout)
+        collectionView.register(ImageLabelCollectionViewCell.self, forCellWithReuseIdentifier: ImageLabelCollectionViewCell.reuseIdentifier)
+        collectionView.alwaysBounceVertical = true
+        collectionView.dataSource = dataSource
+        collectionView.delegate = dataSource
+        collectionView.backgroundColor = UIColor(white: 0, alpha: 0)
+        return collectionView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .white
+        view.backgroundColor = UIColor(white: 0.2, alpha: 1)
         
-        setupTabBarItems()
+        collectionView.contentInset = UIEdgeInsets(top: 75, left: 75, bottom: 75, right: 75)
+        
+        view.addSubview(collectionView)
     }
     
+    func handleCollectionViewCellSelection(indexPath: IndexPath) {
+        print(indexPath.row)
+    }
+    
+    /*
     override func viewDidAppear(_ animated: Bool) {
         if bakeryDatasource.existingBakedGoodsOnDisk(diskFileName: .bun) && bakeryDatasource.existingBakedGoodsOnDisk(diskFileName: .loaf) && bakeryDatasource.existingBakedGoodsOnDisk(diskFileName: .news) {
             askForDataSource()
@@ -81,4 +119,5 @@ class MainViewController: UITabBarController {
             self.bakeryDatasource.getNewsItemsFromAPI(successCallback: self.newsMasterViewController.setData)
         }
     }
+    */
 }

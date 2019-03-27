@@ -29,11 +29,16 @@
 		57B2233721EF4504006A5660 /* Loaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2233121EF4504006A5660 /* Loaf.swift */; };
 		57B2233921EF4504006A5660 /* CerealMixPercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2233321EF4504006A5660 /* CerealMixPercentage.swift */; };
 		57B2233B21EF4504006A5660 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2233521EF4504006A5660 /* Weekday.swift */; };
-		57B2233D21F0F6F8006A5660 /* ColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2233C21F0F6F8006A5660 /* ColumnFlowLayout.swift */; };
 		57B2233F21F105C8006A5660 /* LoafDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2233E21F105C8006A5660 /* LoafDetailViewController.swift */; };
 		57CC0B0C221D76100036EB3E /* AllergyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CC0B0B221D76100036EB3E /* AllergyType.swift */; };
 		57E5B8A221EB9FE80072D17C /* BunMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5B8A121EB9FE80072D17C /* BunMasterViewController.swift */; };
 		57E5B8A421EB9FF30072D17C /* NewsMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5B8A321EB9FF30072D17C /* NewsMasterViewController.swift */; };
+		57EAEDD8224A731B00B7ED4B /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EAEDD7224A731B00B7ED4B /* ReusableCell.swift */; };
+		57EAEDDE224A8F4B00B7ED4B /* ImageLabelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EAEDDD224A8F4B00B7ED4B /* ImageLabelData.swift */; };
+		57EAEDE2224A908000B7ED4B /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EAEDE1224A908000B7ED4B /* CollectionViewLayout.swift */; };
+		57EAEDE4224B756000B7ED4B /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EAEDE3224B756000B7ED4B /* ConfigurableCell.swift */; };
+		57EAEDEC224B79E400B7ED4B /* ImageLabelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EAEDEB224B79E400B7ED4B /* ImageLabelDataSource.swift */; };
+		57EAEDF0224B7BEF00B7ED4B /* GenericDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EAEDEF224B7BEF00B7ED4B /* GenericDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,11 +80,16 @@
 		57B2233121EF4504006A5660 /* Loaf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loaf.swift; sourceTree = "<group>"; };
 		57B2233321EF4504006A5660 /* CerealMixPercentage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CerealMixPercentage.swift; sourceTree = "<group>"; };
 		57B2233521EF4504006A5660 /* Weekday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weekday.swift; sourceTree = "<group>"; };
-		57B2233C21F0F6F8006A5660 /* ColumnFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnFlowLayout.swift; sourceTree = "<group>"; };
 		57B2233E21F105C8006A5660 /* LoafDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoafDetailViewController.swift; sourceTree = "<group>"; };
 		57CC0B0B221D76100036EB3E /* AllergyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyType.swift; sourceTree = "<group>"; };
 		57E5B8A121EB9FE80072D17C /* BunMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BunMasterViewController.swift; sourceTree = "<group>"; };
 		57E5B8A321EB9FF30072D17C /* NewsMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsMasterViewController.swift; sourceTree = "<group>"; };
+		57EAEDD7224A731B00B7ED4B /* ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableCell.swift; sourceTree = "<group>"; };
+		57EAEDDD224A8F4B00B7ED4B /* ImageLabelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLabelData.swift; sourceTree = "<group>"; };
+		57EAEDE1224A908000B7ED4B /* CollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayout.swift; sourceTree = "<group>"; };
+		57EAEDE3224B756000B7ED4B /* ConfigurableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
+		57EAEDEB224B79E400B7ED4B /* ImageLabelDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLabelDataSource.swift; sourceTree = "<group>"; };
+		57EAEDEF224B7BEF00B7ED4B /* GenericDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +123,10 @@
 		574C763321EF440900AF9B47 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				574C763121EF440100AF9B47 /* ImageLabelCollectionViewCell.swift */,
-				57B2233C21F0F6F8006A5660 /* ColumnFlowLayout.swift */,
+				57EAEDF1224B7DA400B7ED4B /* data */,
+				57EAEDEE224B7A1F00B7ED4B /* datasource */,
+				57EAEDED224B7A1300B7ED4B /* cell */,
+				57EAEDE1224A908000B7ED4B /* CollectionViewLayout.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -140,6 +152,7 @@
 		576406A621EB98D40056F161 /* Baeckerei */ = {
 			isa = PBXGroup;
 			children = (
+				57EAEDC7224A691400B7ED4B /* legacy */,
 				570D1217220751C600309B67 /* restapi */,
 				57B2232F21EF44F3006A5660 /* model */,
 				574C763321EF440900AF9B47 /* view */,
@@ -182,15 +195,49 @@
 		57E5B8A021EB9FB20072D17C /* viewcontroller */ = {
 			isa = PBXGroup;
 			children = (
+				570D120C2204E1D700309B67 /* MainViewController.swift */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		57EAEDC7224A691400B7ED4B /* legacy */ = {
+			isa = PBXGroup;
+			children = (
 				574C762F21EF3EA000AF9B47 /* LoafMasterViewController.swift */,
 				57B2233E21F105C8006A5660 /* LoafDetailViewController.swift */,
 				57E5B8A121EB9FE80072D17C /* BunMasterViewController.swift */,
 				570D12122205DA0400309B67 /* BunDetailViewController.swift */,
 				57E5B8A321EB9FF30072D17C /* NewsMasterViewController.swift */,
 				574239FF22106D47009F003F /* NewsDetailViewController.swift */,
-				570D120C2204E1D700309B67 /* MainViewController.swift */,
 			);
-			path = viewcontroller;
+			path = legacy;
+			sourceTree = "<group>";
+		};
+		57EAEDED224B7A1300B7ED4B /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				57EAEDD7224A731B00B7ED4B /* ReusableCell.swift */,
+				57EAEDE3224B756000B7ED4B /* ConfigurableCell.swift */,
+				574C763121EF440100AF9B47 /* ImageLabelCollectionViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		57EAEDEE224B7A1F00B7ED4B /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+				57EAEDEB224B79E400B7ED4B /* ImageLabelDataSource.swift */,
+				57EAEDEF224B7BEF00B7ED4B /* GenericDataSource.swift */,
+			);
+			path = datasource;
+			sourceTree = "<group>";
+		};
+		57EAEDF1224B7DA400B7ED4B /* data */ = {
+			isa = PBXGroup;
+			children = (
+				57EAEDDD224A8F4B00B7ED4B /* ImageLabelData.swift */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +290,11 @@
 				TargetAttributes = {
 					576406A321EB98D40056F161 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					576406B721EB98D50056F161 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 576406A321EB98D40056F161;
 					};
 				};
@@ -297,7 +346,9 @@
 			files = (
 				574239FC22105C16009F003F /* BakeryDatasource.swift in Sources */,
 				57CC0B0C221D76100036EB3E /* AllergyType.swift in Sources */,
+				57EAEDF0224B7BEF00B7ED4B /* GenericDataSource.swift in Sources */,
 				574239FE22106C1D009F003F /* NewsItem.swift in Sources */,
+				57EAEDEC224B79E400B7ED4B /* ImageLabelDataSource.swift in Sources */,
 				574C763221EF440100AF9B47 /* ImageLabelCollectionViewCell.swift in Sources */,
 				570D121D22075B8800309B67 /* ApiError.swift in Sources */,
 				570D121F2207671D00309B67 /* ApiCredentials.swift in Sources */,
@@ -305,6 +356,7 @@
 				57423A0022106D47009F003F /* NewsDetailViewController.swift in Sources */,
 				57B2233B21EF4504006A5660 /* Weekday.swift in Sources */,
 				570D12132205DA0400309B67 /* BunDetailViewController.swift in Sources */,
+				57EAEDD8224A731B00B7ED4B /* ReusableCell.swift in Sources */,
 				57B2233621EF4504006A5660 /* Ingredient.swift in Sources */,
 				570D12152205E05000309B67 /* BakedGood.swift in Sources */,
 				57E5B8A221EB9FE80072D17C /* BunMasterViewController.swift in Sources */,
@@ -312,9 +364,11 @@
 				570D120D2204E1D700309B67 /* MainViewController.swift in Sources */,
 				576406A821EB98D40056F161 /* AppDelegate.swift in Sources */,
 				57300C69220E274F007AF724 /* Disk.swift in Sources */,
-				57B2233D21F0F6F8006A5660 /* ColumnFlowLayout.swift in Sources */,
 				570D12112205D95800309B67 /* Bun.swift in Sources */,
 				57B2233F21F105C8006A5660 /* LoafDetailViewController.swift in Sources */,
+				57EAEDE2224A908000B7ED4B /* CollectionViewLayout.swift in Sources */,
+				57EAEDE4224B756000B7ED4B /* ConfigurableCell.swift in Sources */,
+				57EAEDDE224A8F4B00B7ED4B /* ImageLabelData.swift in Sources */,
 				57E5B8A421EB9FF30072D17C /* NewsMasterViewController.swift in Sources */,
 				574C763021EF3EA000AF9B47 /* LoafMasterViewController.swift in Sources */,
 				57B2233721EF4504006A5660 /* Loaf.swift in Sources */,
@@ -492,7 +546,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.gregoryseibert.Baeckerei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -510,7 +564,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.gregoryseibert.Baeckerei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -530,7 +584,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.gregoryseibert.BaeckereiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baeckerei.app/Baeckerei";
 			};
@@ -551,7 +605,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.gregoryseibert.BaeckereiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baeckerei.app/Baeckerei";
 			};

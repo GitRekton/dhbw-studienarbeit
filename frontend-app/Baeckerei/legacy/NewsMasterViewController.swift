@@ -8,8 +8,6 @@
 
 import UIKit
 
-import UIKit
-
 class NewsMasterViewController: UIViewController {
     private var newsArray = [NewsItem]()
     private var imageDataArray = [Data]()
