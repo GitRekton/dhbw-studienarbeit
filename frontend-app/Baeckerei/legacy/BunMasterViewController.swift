@@ -27,12 +27,12 @@ class BunMasterViewController: UIViewController {
     }()
     
     private lazy var layout: UICollectionViewFlowLayout = {
-        let layout: UICollectionViewFlowLayout = ColumnFlowLayout(
-            estimatedCellWidth: estimatedCellWidth,
-            cellMarginSize: cellMarginSize,
-            heightOffset: cellHeightOffset
-        )
-        return layout
+//        let layout: UICollectionViewFlowLayout = ColumnFlowLayout(
+//            estimatedCellWidth: estimatedCellWidth,
+//            cellMarginSize: cellMarginSize,
+//            heightOffset: cellHeightOffset
+//        )
+        return UICollectionViewFlowLayout()
     }()
     
     private lazy var collectionView: UICollectionView = {

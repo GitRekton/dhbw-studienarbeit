@@ -123,10 +123,10 @@
 		574C763321EF440900AF9B47 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				57BF72DD224C07730088CF4E /* layout */,
 				57EAEDF1224B7DA400B7ED4B /* data */,
 				57EAEDEE224B7A1F00B7ED4B /* datasource */,
 				57EAEDED224B7A1300B7ED4B /* cell */,
-				57EAEDE1224A908000B7ED4B /* CollectionViewLayout.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -192,9 +192,18 @@
 			path = model;
 			sourceTree = "<group>";
 		};
+		57BF72DD224C07730088CF4E /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				57EAEDE1224A908000B7ED4B /* CollectionViewLayout.swift */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
 		57E5B8A021EB9FB20072D17C /* viewcontroller */ = {
 			isa = PBXGroup;
 			children = (
+				574C762F21EF3EA000AF9B47 /* LoafMasterViewController.swift */,
 				570D120C2204E1D700309B67 /* MainViewController.swift */,
 			);
 			path = viewcontroller;
@@ -203,7 +212,6 @@
 		57EAEDC7224A691400B7ED4B /* legacy */ = {
 			isa = PBXGroup;
 			children = (
-				574C762F21EF3EA000AF9B47 /* LoafMasterViewController.swift */,
 				57B2233E21F105C8006A5660 /* LoafDetailViewController.swift */,
 				57E5B8A121EB9FE80072D17C /* BunMasterViewController.swift */,
 				570D12122205DA0400309B67 /* BunDetailViewController.swift */,

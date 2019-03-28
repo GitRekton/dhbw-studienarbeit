@@ -9,6 +9,14 @@
 import UIKit
 
 class MainViewController: UIViewController, UICollectionViewDelegate {
+    let loafMasterViewController = LoafMasterViewController()
+    
+    private var logoImageView: UIImageView = {
+        let imageView = UIImageView(image: UIImage(named: "logo_header"))
+        imageView.contentMode = .scaleAspectFit
+        return imageView
+    }()
+    
     private lazy var dataSource: ImageLabelDataSource = {
         let dataSource = ImageLabelDataSource()
         
@@ -49,15 +57,21 @@ class MainViewController: UIViewController, UICollectionViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationItem.titleView = logoImageView
+        
         view.backgroundColor = UIColor(white: 0.2, alpha: 1)
         
-        collectionView.contentInset = UIEdgeInsets(top: 75, left: 75, bottom: 75, right: 75)
+        collectionView.contentInset = UIEdgeInsets(top: 50, left: 50, bottom: 50, right: 50)
         
         view.addSubview(collectionView)
     }
     
     func handleCollectionViewCellSelection(indexPath: IndexPath) {
         print(indexPath.row)
+        
+        if indexPath.row == 0 {
+            self.navigationController?.pushViewController(loafMasterViewController, animated: true)
+        }
     }
     
     /*
